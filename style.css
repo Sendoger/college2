@@ -1,0 +1,195 @@
+/*put poppins google font*/
+
+body {
+	display: flex;
+	padding: 0;
+	align-items: center;
+	justify-content: center;
+	font-family: 'Poppins';
+	background: rgb(223, 164, 55);
+	
+}
+
+.flex-container {
+	padding: 10px 40px 10px 40px;
+	display: flex;
+	border-radius: 20px;
+	flex-direction: column;
+	max-width: 1700px;
+	width: 100%;
+	background: rgb(244, 235, 224);
+
+}
+
+.header-container {
+	margin-top: 20px;
+	margin-bottom: 70px;
+	display: flex;
+	flex-flow: column wrap;
+	gap: 15px;
+	justify-content: center;
+	align-items: center;
+	min-width: 0;
+}
+
+.header__menu {
+	display: flex;
+	min-width: 5%;
+	gap: 30px;
+}
+
+.header-container .header__foo img {
+	max-width: 20px;
+}
+
+.header-container .header__foo,
+.header-container .header__search-box {
+	min-width: 15%;
+	display: flex;
+	align-items: center;
+	font-size: 24px;
+}
+
+
+.header__foo {
+	font-weight: bold;
+	justify-content: center;
+}
+
+.cart {
+	border-left: 1px solid black;
+	padding-left: 2px;
+}
+
+.header__search-box {
+	border: 0px solid white;
+	justify-content: space-evenly;
+	border-radius: 10px;
+	background: white;
+	box-shadow: gray 1px 1px;
+	padding: 5px;
+}
+
+input::placeholder {
+	color: black;
+}
+
+.header__search {
+	font-size: 24px;
+	border: 0px solid white;
+	border-radius: 10px;
+	padding: 5px;
+	width: 150px;
+}
+
+
+.header__top-button {
+	text-decoration: none;
+	font-size: 18px;
+	color: black;
+} 
+
+.center-container {
+	display: flex;
+	padding:0px 0px 70px 0px;
+	flex-flow: row wrap;
+	justify-content: space-around;
+}
+
+.center-container .content-box,
+.center-container .image-box {
+	max-width:600px;
+	min-width: 0;
+	flex-flow: column wrap;
+}
+
+.center-container .image-box {
+	display: flex;
+	justify-content: center;
+}
+
+
+.center-container .image-box img {
+	width: 100%;
+	max-height: 800px;
+}
+
+.food,
+.lorem,
+.buttons,
+.stars,
+.rating,
+.reviews {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 20px;
+	max-width: 600px;
+	min-width: 0;
+	align-items: center;
+	margin-bottom: 50px;
+	font-size: 0;
+}
+
+.stars {
+	margin-bottom: 10px;
+}
+
+.reviews,
+.rating {
+	margin: 0;
+}
+
+.food__big,
+.food__small {
+	font-weight: bold;
+	min-width: 0;
+	max-width: 400px;
+
+}
+
+.food__big {
+	font-size: 144px;
+	color: rgb(248, 112, 0);
+
+	
+	
+}
+
+.food__small {
+	font-size: 46px;
+
+	
+}
+
+.text__small {
+	font-size: 24px;
+	color: gray;
+}
+
+.text__small__black {
+	font-size: 24px;
+	color: black;
+}
+
+.buttons-left {
+	font-size: 24px;
+	background: black;
+	color: white;
+	border-radius: 36px;
+	padding: 20px 30px 20px 30px;
+	border: solid 1px black;
+	box-shadow: linear-gradient(180deg, rgb(0, 0, 0) 7%, rgb(186, 207, 208)) -10px 20px;
+}
+
+.buttons-right {
+	border: solid 1px white;
+	padding: 20px 30px 20px 30px;
+	font-size: 36px;
+	border-radius: 100px;
+}
+
+.button-text {
+	font-size: 24px;
+	color: black;
+}
+
